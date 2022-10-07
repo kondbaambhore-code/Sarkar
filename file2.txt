@@ -1,0 +1,18 @@
+
+SQL INNER JOIN Example
+The following SQL statement selects all orders with customer information:
+Example
+SELECT Orders.OrderID, Customers.CustomerName
+FROM Orders
+INNER JOIN Customers ON Orders.CustomerID = Customers.CustomerID;
+Result:
+Number of Records: 
+OrderID	CustomerName
+10248	Wilman Kala
+10249	Tradição Hipermercados
+10250	Hanari Carnes
+10251	Victuailles en stock
+10252	Suprêmes délices
+10253	Hanari Carnes
+10254	Chop-suey Chinese
+10255	Richter Supermarkt
